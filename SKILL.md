@@ -1,6 +1,6 @@
 ---
-name: nextjs-i18n-seo
-description: Use when building or reviewing Next.js App Router SEO and internationalization: localized routes, Metadata API, canonical URLs, hreflang alternates, sitemap, robots, Open Graph, Twitter cards, opengraph-image or twitter-image routes, and JSON-LD.
+name: "nextjs-i18n-seo"
+description: "Use when building or reviewing Next.js App Router SEO and internationalization: localized routes, Metadata API, canonical URLs, hreflang alternates, sitemap, robots, Open Graph, Twitter cards, opengraph-image or twitter-image routes, and JSON-LD."
 ---
 
 # Next.js i18n SEO
