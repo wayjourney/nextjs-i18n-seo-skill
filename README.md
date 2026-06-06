@@ -27,13 +27,7 @@ It is designed to be usable by any agent system that supports a `SKILL.md`-style
 - `agents/openai.yaml`: UI metadata for skill pickers
 - `LICENSE`: repository license
 
-## Suggested Repo Name
-
-`nextjs-i18n-seo-skill`
-
-This name makes it clear that the repository contains a reusable skill while staying neutral about which agent runtime uses it.
-
-## Install Shape
+## Repository Layout
 
 Use this repository as a skill root:
 
@@ -59,34 +53,6 @@ This published version is intentionally generic.
 
 It does not hardcode project-specific file paths, helper names, brand names, locale models, or routing conventions beyond common Next.js App Router patterns.
 
-## Publish
-
-This directory is already laid out to work as a standalone repository root:
-
-```text
-.
-  README.md
-  SKILL.md
-  LICENSE
-  agents/openai.yaml
-```
-
-You can `cd` into this directory and run `git init`, or copy these files into a new repository root.
-
 ## Pairing Model
 
 This skill works best when a project also has a local overlay skill that captures repo-specific helpers and conventions.
-
-## Suggested GitHub Description
-
-`Reusable agent skill for Next.js App Router i18n, metadata, sitemap, Open Graph, and JSON-LD workflows.`
-
-## Suggested Topics
-
-- `agent-skill`
-- `nextjs`
-- `i18n`
-- `seo`
-- `metadata`
-- `sitemap`
-- `json-ld`
