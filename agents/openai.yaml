@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js i18n SEO"
+  short_description: "Next.js i18n, metadata, sitemap, JSON-LD"
+  default_prompt: "Use $nextjs-i18n-seo to update this Next.js route's metadata, alternates, sitemap, and JSON-LD."
